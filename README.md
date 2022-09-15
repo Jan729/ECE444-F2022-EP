@@ -1,4 +1,8 @@
 # Education_Pathways
+# F2022-EP-Janelle
+This repo is a clone of https://github.com/ECE444-2022Fall/Assignment_1_starter_template
+
+# Assignment 1: Education Pathway
 
 This is a modified version of the previous Assignment1 template.
 
@@ -87,3 +91,70 @@ npm run build
 ```powershell
 git push heroku main
 ```
+
+4.6 (`optional`) Add the requirements:
+
+```
+Flask==2.1.1
+gunicorn==20.0.4
+pytest==7.1.2
+```
+
+4.7 (`optional`) Create a *.gitignore* file in the project root:
+
+```sh
+$ touch .gitignore
+```
+
+4.8 (`optional`) And include the following files and folders (so they are not included in version control):
+
+```sh
+env
+*.pyc
+*.DS_Store
+__pycache__
+test.db
+```
+
+4.9 (`optional`) To specify the correct Python runtime, add a new file to the project root called *runtime.txt*:
+
+```
+python-3.10.4
+```
+
+4.10 (`optional`) Add a local Git repo:
+
+```sh
+$ git init
+$ git add -A
+$ git commit -m "initial"
+```
+
+4.11 Login to your Heroku account
+
+```sh
+$ heroku login
+```
+
+4.12 Deploy to Heroku, give your application a name on Heroku, for example, we name it `myapp-unique-name` here:
+
+```sh
+$ heroku create myapp-unique-name
+```
+4.13 Then set your heroku remote to the application you just created
+```sh
+$ heroku git:remote -a myapp-unique-name
+```
+4.14 Commit your local repo to Heroku remote
+```sh
+$ git add .
+$ git commit -am "inital commit to heroku remote"
+$ git push heroku main
+```
+
+4.15 Then to view the deployed app online, run the following command to open the webpage in your default browser.
+
+```sh
+$ heroku open
+```
+or go to your [Heroku account](https://dashboard.heroku.com/apps) and check your the url of your deployed app. (`https://myapp-unique-name.herokuapp.com/`)
