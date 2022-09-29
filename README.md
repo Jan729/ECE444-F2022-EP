@@ -2,6 +2,10 @@
 # F2022-EP-Janelle
 This repo is a clone of https://github.com/ECE444-2022Fall/Assignment_1_starter_template
 
+(These are the lab3 screenshots)
+<img width="354" alt="image" src="https://user-images.githubusercontent.com/46268176/193141875-b61ef71c-c71a-4f96-a931-c45127011aef.png">
+
+
 # Assignment 1: Education Pathway
 
 This is a modified version of the previous Assignment1 template.
