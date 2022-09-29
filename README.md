@@ -3,9 +3,11 @@
 This repo is a clone of https://github.com/ECE444-2022Fall/Assignment_1_starter_template
 
 (These are the lab3 screenshots)
+
 <img width="354" alt="image" src="https://user-images.githubusercontent.com/46268176/193141875-b61ef71c-c71a-4f96-a931-c45127011aef.png">
 <img width="476" alt="image" src="https://user-images.githubusercontent.com/46268176/193147567-75c51495-c151-46bc-9b1d-f98b67cf98b6.png">
 <img width="753" alt="image" src="https://user-images.githubusercontent.com/46268176/193147707-6df24027-d212-4a78-ac8e-76991c6285ea.png">
+<img width="602" alt="image" src="https://user-images.githubusercontent.com/46268176/193147936-64c4168b-b074-4c14-85cc-7c4efd3f301e.png">
 
 # Assignment 1: Education Pathway
 
